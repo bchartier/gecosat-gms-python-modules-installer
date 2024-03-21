@@ -18,10 +18,11 @@ tracker=https://github.com/bchartier/gecosat-gms-python-modules-installer/issues
 # status
 deprecated=False
 experimental=True
-qgisMinimumVersion=3.0
+qgisMinimumVersion=3.22
 qgisMaximumVersion=3.99
 
 # version
-version=2023-11-28
+version=2024-03-21
 changelog=
+    2024-03-21 - Update versions of pandas, openpyxl and xlrd (for QGIS 3.34)
     2023-11-28 - First version
