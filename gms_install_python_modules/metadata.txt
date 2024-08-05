@@ -1,11 +1,13 @@
 [general]
 name=GMS Python modules installer
-about=Python modules installer for QGIS developed for Gécosat company
 category=None
 hasProcessingProvider=no
-description=This plugin installs Python modules that don't come with QGIS and required by other plugins.
+about=This plugin has been developped for Gécosat company. It installs Python modules required by other plugins which don't come with QGIS.
     It does not work on other operating systems than Windows.
-icon=resources/images/python-logo-only.png
+    Icon by Freepik: https://www.flaticon.com/free-icons/product
+description=Python modules installer for QGIS developed
+
+icon=resources/images/add.png
 tags=GeoMaps,python
 
 # credits and contact
@@ -18,11 +20,12 @@ tracker=https://github.com/bchartier/gecosat-gms-python-modules-installer/issues
 # status
 deprecated=False
 experimental=True
-qgisMinimumVersion=3.22
+qgisMinimumVersion=3.34
 qgisMaximumVersion=3.99
 
 # version
-version=2024-03-21
+version=2024-08-05
 changelog=
+    2024-08-05 - Change icon of plugin
     2024-03-21 - Update versions of pandas, openpyxl and xlrd (for QGIS 3.34)
     2023-11-28 - First version

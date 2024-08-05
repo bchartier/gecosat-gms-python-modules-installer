@@ -18,6 +18,14 @@ Unreleased
 
 -->
 
+## 2024-08-05
+
+- Change icon : replace official Python icon by an icon comming from Freepik
+
+## 2024-03-21
+
+- Update versions of pandas, openpyxl and xlrd (for QGIS 3.34)
+
 ## 2023-11-28
 
 - First release

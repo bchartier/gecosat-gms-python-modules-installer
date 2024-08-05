@@ -85,7 +85,7 @@ class PlgOptionsFactory(QgsOptionsWidgetFactory):
         super().__init__()
 
     def icon(self) -> QIcon:
-        return QIcon(str(DIR_PLUGIN_ROOT / "resources/images/python-logo-only.png"))
+        return QIcon(str(DIR_PLUGIN_ROOT / "resources/images/add.png"))
 
     def createWidget(self, parent) -> ConfigOptionsPage:
         return ConfigOptionsPage(parent)
